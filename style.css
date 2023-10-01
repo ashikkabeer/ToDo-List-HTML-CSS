@@ -1,0 +1,47 @@
+body {
+    background-color: #181818;
+    color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+img {
+    height: 50px;
+}
+.plus-img {
+    display: flex;
+    align-items: flex-end;
+}
+.my-tasks{
+    margin: 0%;
+    padding: 0%;
+}
+.personal{
+    font-size: 0.9rem;
+    margin: 0%;
+    opacity: 80%;
+}
+
+.task{
+    display: flex;
+    justify-content: start;
+    align-items:initial;
+    padding: 2;
+    padding-left: 0;
+}
+.today {
+    font-size: 1.9rem;
+    margin:1.3rem 0 2%;
+    font-weight: bold;
+}
+
+.task-text {
+    padding-left: 1.2rem;
+}
